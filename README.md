@@ -105,13 +105,14 @@ ASTRA_DB_APPLICATION_TOKEN=REPLACE-ME
 ![image](https://user-images.githubusercontent.com/3254549/88744346-ebd20600-d0fb-11ea-9853-cf370dfcf143.png)
 
 5. View your application:
-Go to visit to your local host
+Go to visit to your localhost
 
-### Things to Note:
- - The contents of this repo are based on [Jake's port](https://github.com/tjake/todo-astra-react-serverless/) of the [TodoMVC code](https://github.com/tastejs/todomvc/tree/master/examples/react) originally written by [Pete Hunt](https://github.com/petehunt).
- - The example is modified from https://github.com/huksley/todo-react-ssr-serverless.
+
 <!--- ENDEXCLUDE --->
 
 <p> For more Info </p>
 
 https://www.datastax.com/
+
+![image](https://user-images.githubusercontent.com/49230384/130268984-8c29b80e-592d-4e65-b276-3057728ec75d.png)
+
