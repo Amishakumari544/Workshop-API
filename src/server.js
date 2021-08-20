@@ -4,20 +4,20 @@ const { createClient } = require("@astrajs/collections");
 
 const port = 3000
 
-app.get('/socials',async (req, res) => {
+app.get('/datas',async (req, res) => {
     const astraClient = await createClient({
         astraDatabaseId: process.env.ASTRA_DB_ID,
         astraDatabaseRegion: process.env.ASTRA_DB_REGION,
         applicationToken: process.env.ASTRA_DB_APPLICATION_TOKEN,
     });
-    const socialsCollection = astraClient
+    const datasCollection = astraClient
     .namespace("api")
-    .collection("socials");
-  const socials = await socialsCollection.find({});
-  const response = Object.keys(socials).map((key) => {
+    .collection("datas");
+  const datas = await datasCollection.find({});
+  const response = Object.keys(datas).map((key) => {
     return {
       id: key,
-      ...socials[key],
+      ...datas[key],
     };
   });
  res.send(response);

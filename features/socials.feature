@@ -1,7 +1,7 @@
-Feature: Socials 
+Feature: Datas 
 
     Scenario: list of social data
-        Given I make a GET request to "http://localhost:3000/Socials"
+        Given I make a GET request to "http://localhost:3000/Datas"
         When I receive a response
         Then response should have a status 200
         And the response in an item 0 should have body
